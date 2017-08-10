@@ -1,0 +1,566 @@
+.side {
+    margin: 20px;
+    background: none;
+
+    .spacer {
+        margin: 0;
+
+        &.no-icon {
+            display: none;
+        }
+    }
+
+    .login-form-side {
+        background: #FFF;
+        border: none;
+        box-shadow: $shadow;
+        margin-bottom: 20px;
+
+        .submit {
+            padding-right: 117px;
+            padding-bottom: 8px;
+        }
+
+        #remember-me {
+            padding-left: 29px;
+        }
+    }
+
+    .linkinfo {
+        background: white;
+        border: none;
+        border-radius: 0;
+        box-shadow: $shadow;
+        margin-bottom: 20px;
+        padding: 20px;
+        font-size: 14px;
+
+        .date {
+            color: #999;
+            font-size: 12px;
+
+            span {
+                display: none;
+            }
+
+            time {
+                font-weight: bold;
+
+                &:before {
+                    content: 'Submitted ';
+                    font-family: Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    color: #999;
+                }
+            }
+        }
+
+        .score {
+            margin-top: 5px;
+        }
+
+        .totalvotes {
+            color: #999;
+        }
+
+        .shortlink {
+            border-top: 1px solid #eeeeee;
+            padding-top: 15px;
+            margin-top: 15px;
+            font-size: 0;
+            color: white;
+
+            input {
+                border: 1px dotted #cccccc;
+                font-size: 12px;
+                padding: 5px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .titlebox {
+        font-size: 14px;
+        margin-bottom: 20px;
+
+        .redditname {
+            margin-bottom: 15px;
+
+            a {
+                text-transform: capitalize;
+            }
+
+            &:before {
+                content: '/r/';
+            }
+        }
+
+        .fancy-toggle-button {
+            display: block;
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: normal;
+            margin: 20px 0 10px;
+
+            .remove {
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 0;
+                color: #999;
+
+                &:hover {
+                    border: 1px solid #999;
+                }
+
+                &:after {
+                    font-size: 12px;
+                    font-weight: bold;
+                    content: ':(';
+                    transform: rotate(90deg);
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+
+            .add {
+                background: $gold;
+                color: white;
+                border-color: $gold;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+
+                &:hover {
+                    background: lighten($gold, 10%);
+                }
+
+                &:after {
+                    content: ' to /r/Paragon';
+                    text-transform: none;
+                }
+            }
+
+            .remove, .add {
+                box-sizing: border-box;
+                font-size: 12px;
+                width: 100%;
+                border-radius: 0;
+                padding: 10px;
+                transition: background-color 0.2s;
+                font-weight: normal;
+
+                &.active {
+                    display: block;
+                }
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .RESshortcut, .REStoggle {
+            display: inline-block;
+            width: 49%;
+            background: white !important;
+            border: 1px solid #ddd;
+            border-radius: 0;
+            box-sizing: border-box;
+            color: #999999;
+            padding: 10px 5px;
+            margin: 0;
+            font-size: 12px;
+            font-weight: normal;
+            text-transform: capitalize;
+            transition: border 0.2s;
+            text-align: center;
+
+            &:hover {
+                border-color: #999;
+            }
+        }
+
+        .RESshortcut {
+            margin: 0 2% 0 0;
+        }
+
+        .REStoggle {}
+    }
+
+    .subscribers {
+        margin-top: 20px;
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .users-online {
+        color: #cccccc;
+        font-size: 14px;
+
+        &:before {
+            display: none;
+        }
+    }
+
+    .leavemoderator, .leavecontributor-button {
+        display: none;
+    }
+
+    .tagline {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 0;
+        min-height: 25px;
+        font-size: 14px;
+        padding-top: 3px;
+
+        .author {
+            margin-left: 35px;
+        }
+
+        .flair {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: 250px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .flairselector {
+        margin-top: 20px;
+        max-width: 250px;
+        position: static !important;
+    }
+
+    .dropchoices {
+        white-space: normal;
+    }
+
+    .flairoptionpane {
+        .author {
+            display: none;
+        }
+
+        .flair {
+            position: inherit;
+        }
+
+        ul {
+            overflow: visible;
+        }
+
+        li {
+            border: none;
+            display: inline-block !important;
+            padding: 0;
+            margin: 5px;
+            max-width: 25px;
+        }
+    }
+
+    .flairtoggle {
+        font-size: 12px;
+    }
+
+    .title h1 {
+        text-transform: capitalize;
+        color: $foreground;
+    }
+
+    .md h2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .morelink {
+        background: white;
+        box-shadow: $shadow;
+        border: none;
+        border-left: 4px solid $gold;
+        text-align: center;
+        font-size: 14px;
+        height: auto;
+        line-height: 14px;
+
+        &:hover {
+            a {
+                color: $foreground;
+            }
+        }
+
+        a {
+            display: inline-block;
+            padding: 15px 10px;
+            color: $gold;
+            text-transform: uppercase;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .nub {
+            display: none;
+        }
+    }
+
+    .submit-text {
+        display: none;
+    }
+
+    .titlebox {
+        margin-top: 20px;
+        background: white;
+        padding: 20px;
+        box-shadow: $shadow;
+
+        .bottom {
+            display: none;
+        }
+    }
+
+    .usertext {
+        border-top: 1px solid #cccccc;
+        margin-top: 20px;
+    }
+
+    #moderation_tools {
+        margin-top: 20px;
+
+        ul.content {
+            margin: 10px 0 20px;
+            border: none;
+            box-shadow: $shadow;
+            padding: 20px;
+            font-size: 14px;
+        }
+    }
+
+    .sidecontentbox .content {
+        background: white;
+        margin: 10px 0 20px;
+        border: none;
+        box-shadow: $shadow;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .sidebox.create {
+        display: none;
+    }
+
+    .account-activity-box {
+        display: none;
+    }
+
+    .gadget {
+        .midcol {
+            width: 20px;
+            margin: 0;
+        }
+
+        .entry {
+            padding: 5px 5px 0 10px;
+        }
+
+        .linkflairlabel {
+            margin-left: 5px;
+        }
+    }
+
+    .dfp-ad-container {
+        background-color: #FFF;
+        border: none;
+        width: 288px;
+        height: 260px;
+        margin-bottom: 20px;
+        padding: 0 0 0 10px !important;
+        box-shadow: $shadow;
+
+        &:after {
+            content: "advertisement";
+            text-align: center;
+            display: block;
+            color: #AAA;
+            margin-top: -10px;
+        }
+
+        & > div[id$='__container__'] {
+            width: 300px;
+            height: 250px;
+            transform: scale(0.88) translateX(-12px);
+        }
+    }
+}
+
+.sponsorshipbox, #ad_main {
+    margin-bottom: 15px;
+}
+
+#ad_main_top {
+    margin-bottom: 20px !important;
+}
+
+.side {
+    .tagline {
+        .userattrs {
+            visibility: visible !important;
+
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-size: 250px;
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .flair-epic {
+            background-position: -25px 0;
+        }
+
+        .flair-hero-gideon {
+            background-position: -50px 0;
+        }
+
+        .flair-hero-sparrow {
+            background-position: -75px 0;
+        }
+
+        .flair-hero-muriel {
+            background-position: -100px 0;
+        }
+
+        .flair-hero-feng {
+            background-position: -125px 0;
+        }
+
+        .flair-hero-steel {
+            background-position: -150px 0;
+        }
+
+        .flair-hero-gadget {
+            background-position: -175px 0;
+        }
+
+        .flair-hero-kallari {
+            background-position: -200px 0;
+        }
+
+        .flair-hero-dekker {
+            background-position: -225px 0;
+        }
+
+        .flair-hero-murdock {
+            background-position: 0 -25px;
+        }
+
+        .flair-hero-twinblast {
+            background-position: -25px -25px;
+        }
+
+        .flair-hero-rampage {
+            background-position: -50px -25px;
+        }
+
+        .flair-hero-howitzer {
+            background-position: -75px -25px;
+        }
+
+        .flair-hero-grux {
+            background-position: -100px -25px;
+        }
+
+        .flair-hero-sevarog {
+            background-position: -125px -25px;
+        }
+
+        .flair-hero-iggy {
+            background-position: -150px -25px;
+        }
+
+        .flair-hero-grim {
+            background-position: -175px -25px;
+        }
+
+        .flair-hero-riktor {
+            background-position: -200px -25px;
+        }
+
+        .flair-hero-khaimera {
+            background-position: -225px -25px;
+        }
+
+        .flair-hero-greystone {
+            background-position: 0 -50px;
+        }
+
+        .flair-hero-the-fey {
+            background-position: -25px -50px;
+        }
+
+        .flair-hero-narbash {
+            background-position: -50px -50px;
+        }
+
+        .flair-hero-lt-belica {
+            background-position: -75px -50px;
+        }
+
+        .flair-hero-kwang {
+            background-position: -100px -50px;
+        }
+
+        .flair-hero-countess {
+            background-position: -125px -50px;
+        }
+
+        .flair-hero-crunch {
+            background-position: -150px -50px;
+        }
+
+        .flair-hero-serath {
+            background-position: -175px -50px;
+        }
+
+        .flair-hero-aurora {
+            background-position: -200px -50px;
+        }
+
+        .flair-hero-shinbi {
+            background-position: -225px -50px;
+        }
+
+        .flair-hero-yin {
+            background-position: 0 -75px;
+        }
+
+        .flair-hero-morigesh {
+            background-position: -25px -75px;
+        }
+
+        .flair-hero-revenant {
+            background-position: -50px -75px;
+        }
+
+        .flair-hero-phase {
+            background-position: -75px -75px;
+        }
+
+        .flair-hero-wukong {
+            background-position: -100px -75px;
+        }
+
+        .flair-hero-wraith {
+            background-position: -125px -75px;
+        }
+
+        .flair-hero-zinx {
+            background-position: -150px -75px;
+        }
+    }
+}

@@ -1,0 +1,313 @@
+// .flair-epic {
+// 		border: none;
+// 		border-radius: 0px;
+// 		padding-left: 0px;
+// 		margin-right: inherit;
+// 		background-color: transparent ;
+// 		background-image: url(%%flair-epic%%);
+// 		background-repeat: no-repeat;
+// 		width: 18px;
+// 		height: 20px;
+// 		margin-bottom: -5px;
+// 		margin-left: 2px;
+// 		text-indent: 100px;
+// 		white-space: nowrap;
+// 		overflow: hidden;
+// }
+
+.thumbnail.self {
+    background-image: url(%%flair-icons%%);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.linkflair-epic-answered .linkflairlabel, .linkflairlabel {
+    padding: 4px 4px 3px;
+    font-size: 9px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    background: $gold;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    top: 2px;
+    letter-spacing: 1px;
+
+    &:hover {
+        background: lighten($gold, 10%);
+    }
+}
+
+.linkflair-official {
+    background: white url(%%epic-linkflair%%) center right no-repeat !important;
+
+    .linkflairlabel {
+        background: black;
+    }
+    .thumbnail {
+        background-position: 0px -100px;
+    }
+    &:before {
+        color: $gold;
+    }
+}
+
+.linkflair-announcement {
+    .linkflairlabel {
+        background: #65b354;
+
+        &:hover {
+            background: lighten(#65b354, 30%);
+        }
+    }
+    &:before {
+        color: #65b354;
+    }
+}
+
+.linkflair-epic-answered {
+    .linkflairlabel {
+        background: black;
+
+        &:hover {
+            background: lighten(black, 30%);
+        }
+    }
+    &:before {
+        color: black;
+    }
+}
+
+.linkflair-discussion {
+    .linkflairlabel {
+        background: #2c95f7;
+
+        &:hover {
+            background: lighten(#2c95f7, 30%);
+        }
+    }
+    .thumbnail {
+        background-position: 0px -50px;
+    }
+    &:before {
+        color: #2c95f7;
+    }
+}
+
+.linkflair-question {
+    .linkflairlabel {
+        background: $light-purple;
+
+        &:hover {
+            background: lighten($light-purple, 30%);
+        }
+    }
+    .thumbnail {
+        background-position: 0px -150px;
+    }
+    &:before {
+        color: $light-purple;
+    }
+}
+
+.comment .entry {
+    margin-left: 100px;
+}
+
+.userattrs {
+    visibility: visible !important;
+
+    &:before {
+        content: '';
+        text-indent: -9999px;
+        overflow: hidden;
+        position: absolute;
+        left: 50px;
+        top: 16px;
+        width: 50px;
+        height: 50px;
+        background: url(%%flairs%%);
+        background-position: 0px 0px;
+        padding: 0;
+        border: 0;
+        border-radius: 5px;
+    }
+}
+
+.flair {
+    z-index: 5;
+    text-indent: -9999px;
+    overflow: hidden;
+    position: absolute;
+    left: 50px;
+    top: 16px;
+    width: 50px;
+    height: 50px;
+    background: url(%%flairs%%);
+    background-position: 0px 0px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+.flair[class*="-challenger-"] {
+    background: url(%%flairs-challenger%%);
+}
+
+.flair[class*="-master-"] {
+    background: url(%%flairs-master%%);
+}
+
+.flair[class*="-npc-"] {
+    background: url(%%flairs-npc%%);
+}
+
+.flair-default {
+    background-position: 0 0;
+}
+
+.flair-epic {
+    background-position: -50px 0;
+}
+
+.flair-hero-gideon {
+    background-position: -100px 0;
+}
+
+.flair-hero-sparrow {
+    background-position: -150px 0;
+}
+
+.flair-hero-muriel {
+    background-position: -200px 0;
+}
+
+.flair-hero-feng {
+    background-position: -250px 0;
+}
+
+.flair-hero-steel {
+    background-position: -300px 0;
+}
+
+.flair-hero-gadget {
+    background-position: -350px 0;
+}
+
+.flair-hero-kallari {
+    background-position: -400px 0;
+}
+
+.flair-hero-dekker {
+    background-position: -450px 0;
+}
+
+.flair-hero-murdock {
+    background-position: 0 -50px;
+}
+
+.flair-hero-twinblast {
+    background-position: -50px -50px;
+}
+
+.flair-hero-rampage {
+    background-position: -100px -50px;
+}
+
+.flair-hero-howitzer {
+    background-position: -150px -50px;
+}
+
+.flair-hero-grux {
+    background-position: -200px -50px;
+}
+
+.flair-hero-sevarog {
+    background-position: -250px -50px;
+}
+
+.flair-hero-iggy {
+    background-position: -300px -50px;
+}
+
+.flair-hero-grim {
+    background-position: -350px -50px;
+}
+
+.flair-hero-riktor {
+    background-position: -400px -50px;
+}
+
+.flair-hero-khaimera {
+    background-position: -450px -50px;
+}
+
+.flair-hero-greystone {
+    background-position: 0 -100px;
+}
+
+.flair-hero-the-fey {
+    background-position: -50px -100px;
+}
+
+.flair-hero-narbash {
+    background-position: -100px -100px;
+}
+
+.flair-hero-lt-belica {
+    background-position: -150px -100px;
+}
+
+.flair-hero-kwang {
+    background-position: -200px -100px;
+}
+
+.flair-hero-countess {
+    background-position: -250px -100px;
+}
+
+.flair-hero-crunch {
+    background-position: -300px -100px;
+}
+
+.flair-hero-serath {
+    background-position: -350px -100px;
+}
+
+.flair-hero-aurora {
+    background-position: -400px -100px;
+}
+
+.flair-hero-shinbi {
+    background-position: -450px -100px;
+}
+
+.flair-hero-yin {
+    background-position: 0 -150px;
+}
+
+.flair-hero-morigesh {
+    background-position: -50px -150px;
+}
+
+.flair-hero-revenant {
+    background-position: -100px -150px;
+}
+
+.flair-hero-phase {
+    background-position: -150px -150px;
+}
+
+.flair-hero-wukong {
+    background-position: -200px -150px;
+}
+
+.flair-hero-wraith {
+    background-position: -250px -150px;
+}
+
+.flair-hero-zinx {
+    background-position: -300px -150px;
+}
