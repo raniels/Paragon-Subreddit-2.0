@@ -136,6 +136,11 @@
     }
 }
 
+.flair + .userattrs:before {
+    content: "";
+    display: none;
+}
+
 .flair {
     z-index: 5;
     text-indent: -9999px;
