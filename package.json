@@ -1,20 +1,28 @@
 {
-  "name": "paragon",
-  "version": "1.0.0",
-  "description": "/r/Paragon",
+  "name": "paragon-css-king",
+  "version": "2.0.0",
+  "description": "new and improved",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.0"
+    "browser-sync": "^2.18.12",
+    "del": "^2.2.2",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^3.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-csso": "^1.0.1",
-    "gulp-sass": "^2.1.0"
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "fung mao"
   },
-  "author": "Jamie Shepherd",
+  "author": "JejuneKai",
   "license": "ISC"
 }
