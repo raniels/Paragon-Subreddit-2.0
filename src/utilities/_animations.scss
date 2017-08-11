@@ -81,3 +81,77 @@
 	margin-top: 0;
   }
 }
+
+@keyframes slide-1 {
+  0% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-2 {
+  0% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 0;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  61% {
+    opacity: 1;
+  }
+  66.66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-3 {
+  0% {
+    opacity: 0;
+  }
+  61% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* loading bar */
+
+@keyframes bar {
+  0% {
+    opacity: 1;
+    width: 0;
+  }
+  84% {
+    opacity: 1;
+    width: 480px;
+  }
+  100% {
+    opacity: 0;
+    width: 480px;
+  }
+}

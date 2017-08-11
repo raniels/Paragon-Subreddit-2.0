@@ -194,6 +194,17 @@
         font-size: 16px;
         font-weight: bold;
         color: #555;
+
+        .word {
+            text-indent: -9999px;
+            font-size: 0;
+
+            &:before {
+                content: 'Heroes';
+                font-size: 16px;
+                position: relative;
+            }
+        }
     }
 
     .users-online {
@@ -202,6 +213,15 @@
 
         &:before {
             display: none;
+        }
+
+        .word {
+            font-size: 0;
+
+            &:after {
+                content: 'in queue';
+                font-size: 14px;
+            }
         }
     }
 
