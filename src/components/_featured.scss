@@ -112,22 +112,22 @@
     background-position: center;
     border: 1px solid #fff;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    //transition: all 0;
     transition-duration: 0s;
+    transition: border .31s cubic-bezier(0, 0.74, 0.58, 1);
 }
 
 .side blockquote li:nth-child(1) a {
-    background-image: url(%%featured2%%);
+    background-image: url(%%featured%%);
     animation: slide-1 30s infinite;
 }
 
 .side blockquote li:nth-child(2) a {
-    background-image: url(%%featured3%%);
+    background-image: url(%%featured2%%);
     animation: slide-2 30s infinite;
 }
 
 .side blockquote li:nth-child(3) a {
-    background-image: url(%%featured%%);
+    background-image: url(%%featured3%%);
     animation: slide-3 30s infinite;
 }
 
