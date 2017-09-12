@@ -1,5 +1,5 @@
 .content {
-    margin: 84px 340px 20px 20px;
+    margin: 20px 340px 20px 20px;
     margin-right: 340px;
 
     .thing {
@@ -189,7 +189,7 @@
         text-transform: capitalize;
 
         a {
-            background-color: $gold;
+            background-color: $purple;
             color: white;
             font-size: 12px;
             font-weight: normal;
@@ -202,7 +202,7 @@
             border-radius: 0;
 
             &:hover {
-                background-color: lighten($gold, 10%);
+                background-color: lighten($purple, 10%);
                 text-decoration: none;
             }
         }
@@ -237,7 +237,7 @@
         }
 
         button {
-            color: $gold;
+            color: $purple;
             border: none;
         }
     }
@@ -249,11 +249,11 @@ body {
             margin-bottom: 20px;
 
             a.title, a.title:visited, .flat-list.buttons li.first a {
-                color: $green;
+                color: $purple;
             }
 
             .entry .buttons li a {
-                color: $green;
+                color: $purple;
             }
 
             .stickied-tagline {
@@ -270,7 +270,7 @@ body {
             }
 
             &.linkflair::before {
-                color: $green;
+                color: $purple;
                 opacity: 1;
             }
         }
