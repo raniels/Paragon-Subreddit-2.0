@@ -915,16 +915,6 @@ body {
   position: relative;
 }
 
-#header #header-bottom-left:before {
-  content: '';
-  width: 96px;
-  height: 100px;
-  background: url("%%emblem%%") no-repeat;
-  display: inline-block;
-  margin-left: 15px;
-  margin-top: -50px;
-}
-
 #header .pagename {
   font-size: 0;
   color: #1f1f1f;
@@ -933,19 +923,19 @@ body {
 #header .pagename a {
   content: "";
   z-index: 2000;
-  left: 15%;
+  left: 1%;
   position: absolute;
-  top: -190px;
+  top: -22px;
   background: url("%%logo%%") no-repeat left center;
   width: 380px;
   height: 106px;
-  background-size: 100%;
+  background-size: 42%;
 }
 
 #header .tabmenu {
   display: block !important;
   margin-top: 0;
-  margin-left: 130px;
+  margin-left: 200px;
   padding-left: 20px;
   height: 60px;
   position: absolute;
