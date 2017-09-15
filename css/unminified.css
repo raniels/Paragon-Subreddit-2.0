@@ -1084,6 +1084,10 @@ button a:hover {
   background-position: -20px -20px;
 }
 
+.link .score {
+  max-width: 21px;
+}
+
 .link .score.likes {
   color: #ff7700;
 }

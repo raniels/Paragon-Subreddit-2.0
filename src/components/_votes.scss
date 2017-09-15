@@ -17,11 +17,16 @@
 	}
 }
 
-.link .score.likes {
-	color: $upvote;
-}
-.link .score.dislikes {
-	color: $downvote;
+.link .score {
+	&.likes {
+		color: $upvote
+	}
+
+	&.dislikes {
+		color: $downvote
+	}
+
+	max-width: 21px;
 }
 
 .comment .midcol {
