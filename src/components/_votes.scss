@@ -1,29 +1,66 @@
 .arrow {
-	width: 20px;
-	height: 20px;
-	margin: 4px 0;
-	background-image: url(%%spritesheet%%) !important;
-	&.up {
-		background-position: 0 0;
-	}
-	&.down {
-		background-position: 0 -20px;
-	}
-	&.upmod {
-		background-position: -20px 0;
-	}
-	&.downmod {
-		background-position: -20px -20px;
-	}
+    width: 20px;
+    height: 20px;
+    margin: 4px 0;
+    background-image: url(%%spritesheet%%) !important;
+
+    &.up {
+        background-position: 0 0;
+    }
+
+    &.down {
+        background-position: 0 -20px;
+    }
+
+    &.upmod {
+        background-position: -20px 0;
+    }
+
+    &.downmod {
+        background-position: -20px -20px;
+    }
 }
 
-.link .score.likes {
-	color: $upvote;
+.comments-page .commentarea {
+    .arrow {
+        &.down:after, &.downmod:after {
+            display: none;
+            opacity: 0;
+            box-sizing: border-box;
+            top: 35px;
+            left: 45px;
+            position: absolute;
+            border: none;
+            margin-top: 10px;
+            text-align: center;
+            background-color: $purple;
+            font-size: 10px;
+            color: #fff;
+            z-index: 9999;
+            padding: 3px 3px;
+            width: 200px;
+            content: "Please don't downvote content you dislike or disagree with, only downvote off-topic content.";
+        }
+
+        &.down:hover:after, &.downmod:hover:after {
+            display: block;
+            opacity: 0.95;
+        }
+    }
 }
-.link .score.dislikes {
-	color: $downvote;
+
+.link .score {
+    &.likes {
+        color: $upvote;
+    }
+
+    &.dislikes {
+        color: $downvote;
+    }
+
+    max-width: 21px;
 }
 
 .comment .midcol {
-	min-width: 20px !important;
+    min-width: 20px !important;
 }

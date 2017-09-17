@@ -756,6 +756,36 @@ button a:hover {
   background-position: -20px -20px;
 }
 
+.comments-page .commentarea .arrow.down:after,
+.comments-page .commentarea .arrow.downmod:after {
+  display: none;
+  opacity: 0;
+  box-sizing: border-box;
+  top: 35px;
+  left: 45px;
+  position: absolute;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #761fa1;
+  font-size: 10px;
+  color: #fff;
+  z-index: 9999;
+  padding: 3px 3px;
+  width: 200px;
+  content: "Please don't downvote content you dislike or disagree with, only downvote off-topic content.";
+}
+
+.comments-page .commentarea .arrow.down:hover:after,
+.comments-page .commentarea .arrow.downmod:hover:after {
+  display: block;
+  opacity: 0.95;
+}
+
+.link .score {
+  max-width: 21px;
+}
+
 .link .score.likes {
   color: #ff7700;
 }
@@ -804,7 +834,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  background: rgba(118, 31, 161, 0.75);
+  background: #761fa1;
   color: white;
   font-size: 10px;
   border: none;
@@ -2001,10 +2031,75 @@ body:not(.hot-page) .sitetable .thing:first-child {
   margin-top: 0;
 }
 
-.comments-page .commentarea .thing.comment.stickied {
-  background: #d6f5d2;
+.comments-page .commentarea .thing.comment.stickied > .entry {
+  margin-left: 20px;
+}
+
+.comments-page .commentarea .thing.comment.stickied > .entry .author {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 140px !important;
+  line-height: 24px;
+  background-color: #761fa1 !important;
+  font-size: 12px;
+  z-index: 0;
+}
+
+.comments-page .commentarea .thing.comment.stickied > .entry .author:before {
+  content: "moderator - ";
+}
+
+.comments-page .commentarea .thing.comment.stickied > .entry .author:after {
+  content: "";
+  padding: 14px 12px;
+  position: absolute;
+  background-color: #761fa1;
+  z-index: -1;
+  right: -13px;
+  top: 0;
+}
+
+.comments-page .commentarea .thing.comment.stickied > .entry ul.flat-list.buttons {
+  padding-bottom: 15px;
+}
+
+.comments-page .commentarea .thing.comment.stickied,
+.comments-page .commentarea .thing.comment.stickied body.res .comment.stickied {
   margin-top: 20px !important;
   margin-bottom: 20px !important;
+  padding: 22px 12px 0 !important;
+  position: relative !important;
+  border: 1px double #761fa1 !important;
+}
+
+.comments-page .commentarea .thing.comment.stickied .tagline :not(.author),
+.comments-page .commentarea .thing.comment.stickied.stickied > .midcol {
+  display: none !important;
+}
+
+.comments-page .commentarea .thing.comment.stickied:before {
+  content: "stickied comment by";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #761fa1;
+  color: white;
+  padding: 0 4px 0 12px;
+  font-size: 12px;
+  z-index: 2;
+  line-height: 28px;
+}
+
+.comments-page .commentarea .thing.comment.stickied:after {
+  content: "";
+  position: absolute;
+  padding: 14px 16px;
+  background-color: #761fa1;
+  top: -16px;
+  left: 120px;
+  transform: skewX(-20deg);
+  z-index: 1;
 }
 
 .comments-page .commentarea .thing .author {
@@ -2099,7 +2194,7 @@ body:not(.hot-page) .sitetable .thing:first-child {
   padding: 0;
 }
 
-.comments-page .new-comment .tagline:after {
+.comments-page .new-comment .tagline:after :not(.stickied) {
   display: inline-block;
   content: 'New comment';
   text-transform: uppercase;
@@ -2503,4 +2598,158 @@ body:not(.hot-page) .sitetable .thing:first-child {
 .search-page .search-result-listing .search-result-group {
   padding: 20px;
   max-width: 100%;
+}
+
+.side .titlebox {
+  margin-top: 84px;
+}
+
+.side .usertext-body > .md > p:nth-of-type(1) {
+  position: absolute;
+  color: #761fa1;
+  background-color: white;
+  box-shadow: 0px 0px 2.75px 0.25px rgba(0, 0, 0, 0.2);
+  border-left: 4px solid #761fa1;
+  cursor: pointer;
+  margin-top: 26px;
+  top: 420px;
+  right: 20px;
+  width: 300px;
+  max-width: 300px;
+  max-height: 44px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  z-index: 999;
+}
+
+.side .usertext-body > .md > p:nth-of-type(1):hover ~ ul:nth-of-type(1) {
+  display: block;
+}
+
+.side .usertext-body > .md > p:nth-of-type(1)::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #761fa1;
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: 25px;
+}
+
+.side .usertext-body > .md > ul:nth-of-type(1) {
+  padding: 4px 0;
+  background-color: white;
+  border-left: 4px solid #761fa1;
+  border-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  top: 490px;
+  right: 20px;
+  width: 3000px;
+  max-width: 300px;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+.side .usertext-body > .md > ul:nth-of-type(1) > li {
+  background-color: white;
+  margin-bottom: 0;
+  border-bottom: 1px solid #761fa1;
+  padding: 4px 0;
+  width: 100%;
+}
+
+.side .usertext-body > .md > ul:nth-of-type(1) > li:hover {
+  background-color: #761fa1;
+}
+
+.side .usertext-body > .md > ul:nth-of-type(1) > li:hover a {
+  color: white;
+}
+
+.side .usertext-body > .md > ul:nth-of-type(1) > li a {
+  width: 100%;
+  display: block;
+  height: 100%;
+  padding: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #761fa1;
+  font-weight: bold;
+}
+
+.side .usertext-body > .md > ul:nth-of-type(1):hover {
+  display: block;
+}
+
+html:lang(ds) .link:not(.linkflair-discussion) {
+  display: none;
+}
+
+html:lang(ds) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(2) {
+  background-color: #761fa1;
+}
+
+html:lang(ds) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(2) a {
+  color: white;
+}
+
+html:lang(ep) .link:not(.linkflair-epic-answered):not(.linkflair-official) {
+  display: none;
+}
+
+html:lang(ep) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(3) {
+  background-color: #761fa1;
+}
+
+html:lang(ep) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(3) a {
+  color: white;
+}
+
+html:lang(qs) .link:not(.linkflair-question) {
+  display: none;
+}
+
+html:lang(qs) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(4) {
+  background-color: #761fa1;
+}
+
+html:lang(qs) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(4) a {
+  color: white;
+}
+
+html:lang(en) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(1) {
+  background-color: #761fa1;
+}
+
+html:lang(en) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(1) a {
+  color: white;
+}
+
+html:not([lang='en']) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(1) {
+  border-top: 1px solid #761fa1;
+}
+
+.comments-page .side .titlebox {
+  margin-top: 20px;
+}
+
+.comments-page .side .usertext-body > .md > p:nth-of-type(1) {
+  display: none;
+}
+
+.comments-page .side .usertext-body > .md > ul:nth-of-type(1) {
+  display: none;
 }
