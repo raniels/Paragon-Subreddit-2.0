@@ -416,7 +416,8 @@ button a:hover {
   margin-right: 3px;
 }
 
-.thumbnail.self {
+.thumbnail.self,
+.thumbnail.default {
   background-image: url("%%flair-icons%%");
   background-position: 0px 0px;
   background-size: 100% auto;
@@ -485,11 +486,11 @@ button a:hover {
 }
 
 .linkflair-discussion .linkflairlabel {
-  background: #2c95f7;
+  background: #761fa1;
 }
 
 .linkflair-discussion .linkflairlabel:hover {
-  background: #bfdffd;
+  background: #bf75e4;
 }
 
 .linkflair-discussion .thumbnail {
@@ -497,15 +498,15 @@ button a:hover {
 }
 
 .linkflair-discussion:before {
-  color: #2c95f7;
+  color: #761fa1;
 }
 
 .linkflair-question .linkflairlabel {
-  background: #c272d9;
+  background: #761fa1;
 }
 
 .linkflair-question .linkflairlabel:hover {
-  background: #f6ebf9;
+  background: #bf75e4;
 }
 
 .linkflair-question .thumbnail {
@@ -513,7 +514,23 @@ button a:hover {
 }
 
 .linkflair-question:before {
-  color: #c272d9;
+  color: #761fa1;
+}
+
+.linkflair-bug .linkflairlabel {
+  background: #761fa1;
+}
+
+.linkflair-bug .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-bug .thumbnail {
+  background-position: 0px -200px;
+}
+
+.linkflair-bug:before {
+  color: #761fa1;
 }
 
 .comment .entry {
@@ -957,9 +974,9 @@ body {
   position: absolute;
   top: -22px;
   background: url("%%logo%%") no-repeat left center;
-  width: 380px;
+  width: 175px;
   height: 106px;
-  background-size: 42%;
+  background-size: 90%;
 }
 
 #header .tabmenu {
@@ -2727,6 +2744,18 @@ html:lang(qs) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(4)
 }
 
 html:lang(qs) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(4) a {
+  color: white;
+}
+
+html:lang(bu) .link:not(.linkflair-bug) {
+  display: none;
+}
+
+html:lang(bu) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(4) {
+  background-color: #761fa1;
+}
+
+html:lang(bu) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(4) a {
   color: white;
 }
 

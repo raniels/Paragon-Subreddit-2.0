@@ -1,4 +1,4 @@
-.thumbnail.self {
+.thumbnail.self, .thumbnail.default {
     background-image: url(%%flair-icons%%);
     background-position: 0px 0px;
     background-size: 100% auto;
@@ -70,10 +70,10 @@
 
 .linkflair-discussion {
     .linkflairlabel {
-        background: #2c95f7;
+        background: $purple;
 
         &:hover {
-            background: lighten(#2c95f7, 30%);
+            background: lighten($purple, 30%);
         }
     }
 
@@ -82,16 +82,16 @@
     }
 
     &:before {
-        color: #2c95f7;
+        color: $purple;
     }
 }
 
 .linkflair-question {
     .linkflairlabel {
-        background: $light-purple;
+        background: $purple;
 
         &:hover {
-            background: lighten($light-purple, 30%);
+            background: lighten($purple, 30%);
         }
     }
 
@@ -100,7 +100,25 @@
     }
 
     &:before {
-        color: $light-purple;
+        color: $purple;
+    }
+}
+
+.linkflair-bug {
+    .linkflairlabel {
+        background: $purple;
+
+        &:hover {
+            background: lighten($purple, 30%);
+        }
+    }
+
+    .thumbnail {
+        background-position: 0px -200px;
+    }
+
+    &:before {
+        color: $purple;
     }
 }
 
