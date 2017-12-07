@@ -725,6 +725,10 @@ button a:hover {
   background-position: -350px -150px;
 }
 
+.flair-hero-terra {
+  background-position: -400px -150px;
+}
+
 .flair-challenger-gideon {
   background-position: -100px 0 !important;
 }
@@ -869,6 +873,10 @@ button a:hover {
   background-position: -350px -150px !important;
 }
 
+.flair-challenger-terra {
+  background-position: -400px -150px !important;
+}
+
 .flair-master-gideon {
   background-position: -100px 0 !important;
 }
@@ -1011,6 +1019,10 @@ button a:hover {
 
 .flair-master-drongo {
   background-position: -350px -150px !important;
+}
+
+.flair-master-terra {
+  background-position: -400px -150px !important;
 }
 
 .flair-npc-melee {
@@ -2178,6 +2190,10 @@ body {
   background-position: -175px -75px;
 }
 
+.side .tagline .flair-hero-terra {
+  background-position: -200px -75px;
+}
+
 .side .tagline .flair-challenger-gideon {
   background-position: -50px 0 !important;
 }
@@ -2322,6 +2338,10 @@ body {
   background-position: -175px -75px !important;
 }
 
+.side .tagline .flair-challenger-terra {
+  background-position: -200px -75px !important;
+}
+
 .side .tagline .flair-master-gideon {
   background-position: -50px 0 !important;
 }
@@ -2460,6 +2480,14 @@ body {
 
 .side .tagline .flair-master-zinx {
   background-position: -150px -75px !important;
+}
+
+.side .tagline .flair-master-drongo {
+  background-position: -175px -75px !important;
+}
+
+.side .tagline .flair-master-terra {
+  background-position: -200px -75px !important;
 }
 
 .side .tagline .flair-npc-melee {
