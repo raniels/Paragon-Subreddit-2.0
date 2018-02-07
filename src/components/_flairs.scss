@@ -85,10 +85,30 @@
 
     &:before {
         color: $purple;
+        opacity: 1.0 !important;
     }
 }
 
 .linkflair-question {
+    .linkflairlabel {
+        background: $purple;
+
+        &:hover {
+            background: lighten($purple, 30%);
+        }
+    }
+
+    .thumbnail {
+        background-position: 0px -150px;
+    }
+
+    &:before {
+        color: $purple;
+        opacity: 1.0 !important;
+    }
+}
+
+.linkflair-bug {
     .linkflairlabel {
         background: $purple;
 

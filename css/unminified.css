@@ -498,6 +498,7 @@ button a:hover {
 
 .linkflair-discussion:before {
   color: #761fa1;
+  opacity: 1.0 !important;
 }
 
 .linkflair-question .linkflairlabel {
@@ -513,6 +514,23 @@ button a:hover {
 }
 
 .linkflair-question:before {
+  color: #761fa1;
+  opacity: 1.0 !important;
+}
+
+.linkflair-bug .linkflairlabel {
+  background: #761fa1;
+}
+
+.linkflair-bug .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-bug .thumbnail {
+  background-position: 0px -150px;
+}
+
+.linkflair-bug:before {
   color: #761fa1;
   opacity: 1.0 !important;
 }
