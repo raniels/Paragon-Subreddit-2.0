@@ -52,15 +52,13 @@
 			}
 			&.comment.stickied {
 				& >.entry {
-					margin-left: 20px;
-
 					& .author {
 						position: absolute;
 						top: 0;
 						left: 0;
-						padding-left: 140px !important;
+						padding-left: 148px !important;
 						line-height: 24px;
-						background-color: $purple !important;
+						background-color: #65b354 !important;
 						font-size: 12px;
 						z-index: 0;
 						&:before {
@@ -70,8 +68,8 @@
 							content: "";
     						padding: 14px 12px;
     						position: absolute;
-    						background-color: $purple;
-    						//transform: skewX(-20deg);
+    						background-color: #65b354;
+    						transform: skewX(-20deg);
     						z-index: -1;
     						right: -13px;
     						top: 0;
@@ -88,18 +86,18 @@
     					padding: 22px 12px 0!important;
     					position: relative!important;
     					//border-top: 1px solid #282!important;
-    					border: 1px double $purple !important;
+    					border: 1px double #65b354!important;
 				}
 				& .tagline :not(.author), &.stickied > .midcol {
-						display: none !important;
+						display: none;
 				}
 				&:before {
 					content: "stickied comment by";
 					position: absolute;
 					top: 0;
 					left: 0;
-					background-color: $purple;
-					color: white;
+					background-color: #3d4751;
+					color: #d6d6d6;
 					padding: 0 4px 0 12px;
 					font-size: 12px;
 					z-index: 2;
@@ -109,7 +107,7 @@
 				    content: "";
     				position: absolute;
    					padding: 14px 16px;
-    				background-color: $purple;
+    				background-color: #3d4751;
     				top: -16px;
     				left: 120px;
     				transform: skewX(-20deg);
@@ -196,7 +194,7 @@
 			margin: 0;
 			padding: 0;
 		}
-		.tagline:after :not(.stickied) {
+		.tagline:after {
 			display: inline-block;
 			content: 'New comment';
 			text-transform: uppercase;

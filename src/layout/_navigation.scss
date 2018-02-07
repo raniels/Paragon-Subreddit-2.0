@@ -7,15 +7,16 @@
         font-size: 12px;
         position: relative;
 
-        // &:before {
-        //     content: '';
-        //     width: 96px;
-        //     height: 100px;
-        //     background: url(%%emblem%%) no-repeat;
-        //     display: inline-block;
-        //     margin-left: 15px;
-        //     margin-top: -50px;
-        // }
+        &:before {
+            content: '';
+            width: 96px;
+            height: 100px;
+            background: url(%%emblem%%) no-repeat;
+            display: inline-block;
+            margin-left: 15px;
+            margin-top: -36px;
+            background-size: 100%;
+        }
     }
 
     .pagename {
@@ -25,24 +26,24 @@
 
         a {
             content: "";
-            // display: none; // SET TO NONE IF BACKGROUND ALREADY HAS LOGO
-            z-index: 2000;
-            left: 1%;
+            z-index: 1;
+            left: 130px;
             position: absolute;
             top: -22px;
-            background: url(%%logo%%) no-repeat left center;
+            background: url("%%logo%%") no-repeat left center;
             width: 175px;
             height: 106px;
             background-size: 90%;
-            // animation: flicker 10s normal infinite; // If you want a flicker animation on the logo
         }
     }
 
     .tabmenu {
         display: block !important;
         margin-top: 0;
-        margin-left: 200px;
-        padding-left: 20px;
+        margin-left: 500px;
+
+        //border-left: 1px solid white;
+        padding-left: 35px;
         height: 60px;
         position: absolute;
         top: 0;

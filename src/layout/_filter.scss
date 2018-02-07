@@ -141,20 +141,6 @@ html {
         }
     }
 
-    &:lang(bu) {
-        .link:not(.linkflair-bug) {
-            display: none;
-        }
-
-        .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(4) {
-            background-color: $purple;
-
-            a {
-                color: white;
-            }
-        }
-    }
-
     &:lang(en) .side .usertext-body > .md > ul:nth-of-type(1) > li:nth-of-type(1) {
         background-color: $purple;
 
@@ -183,6 +169,22 @@ html {
 
             > ul:nth-of-type(1) {
                 display: none;
+            }
+        }
+    }
+}
+
+body:not(.loggedin) {
+    .side {
+        .usertext-body > .md {
+            > p {
+                &:nth-of-type(1) {
+                    top: 562px;
+                }
+            }
+
+            > ul:nth-of-type(1) {
+                top: 632px;
             }
         }
     }

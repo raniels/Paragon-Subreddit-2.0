@@ -1,5 +1,5 @@
 .content {
-    margin: 20px 340px 20px 20px;
+    margin: 84px 340px 20px 20px;
     margin-right: 340px;
 
     .thing {
@@ -61,7 +61,7 @@
             visibility: hidden;
 
             .moderator {
-                background: $green;
+                background: $purple;
                 color: white;
                 font-size: 9px;
                 font-weight: bold;
@@ -330,4 +330,8 @@ body {
     padding: 0;
     background-color: transparent !important;
     color: $foreground;
+}
+
+body .entry.res-selected, body .entry.res-selected .md-container {
+    background-color: white !important;
 }

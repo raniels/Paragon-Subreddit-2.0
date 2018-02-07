@@ -11,7 +11,10 @@
 'components/highlights',
 'components/flairs',
 'components/votes',
-//'components/featured',
+'components/featured',
+// 'components/christmas',
+// 'components/mothersday',
+'components/valentines',
 'components/infobar';
 
 @import
@@ -26,5 +29,4 @@
 'layout/footer',
 'layout/markdown',
 'layout/wiki',
-'layout/search',
-'layout/filter';
+'layout/search';
