@@ -2530,8 +2530,16 @@ body .entry.res-selected .md-container {
   top: 0;
 }
 
+.comments-page .commentarea .thing.comment.stickied > .entry .tagline :not(.author) {
+  display: none;
+}
+
 .comments-page .commentarea .thing.comment.stickied > .entry ul.flat-list.buttons {
   padding-bottom: 15px;
+}
+
+.comments-page .commentarea .thing.comment.stickied.stickied > .midcol {
+  display: none;
 }
 
 .comments-page .commentarea .thing.comment.stickied,
@@ -2541,11 +2549,6 @@ body .entry.res-selected .md-container {
   padding: 22px 12px 0 !important;
   position: relative !important;
   border: 1px double #65b354 !important;
-}
-
-.comments-page .commentarea .thing.comment.stickied .tagline :not(.author),
-.comments-page .commentarea .thing.comment.stickied.stickied > .midcol {
-  display: none;
 }
 
 .comments-page .commentarea .thing.comment.stickied:before {
