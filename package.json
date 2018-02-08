@@ -4,7 +4,6 @@
   "description": "post v42",
   "main": "gulpfile.js",
   "dependencies": {
-    "browser-sync": "^2.18.12",
     "del": "^2.2.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-compass": "^2.1.0",
@@ -16,7 +15,6 @@
     "gulp-uglify": "^3.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-concat-css": "^2.3.0"
   },

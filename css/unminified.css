@@ -235,7 +235,7 @@ a:hover {
 }
 
 .content .stickied .expando-button:hover {
-  background-color: #761fa1;
+  background-color: #354A84;
 }
 
 .content .md .expando-button {
@@ -309,7 +309,7 @@ a:hover {
 
 .btn,
 button {
-  background-color: #761fa1;
+  background-color: #354A84;
   color: white;
   font-size: 12px;
   text-transform: uppercase;
@@ -322,7 +322,7 @@ button {
 
 .btn:hover,
 button:hover {
-  background-color: #9527cc;
+  background-color: #445ea8;
 }
 
 .btn a,
@@ -339,7 +339,7 @@ button a:hover {
   position: absolute;
   top: 318px;
   z-index: 1337;
-  background: #761fa1;
+  background: #354A84;
 }
 
 #search:before {
@@ -431,7 +431,7 @@ button a:hover {
   font-weight: normal;
   text-transform: uppercase;
   color: white;
-  background: #761fa1;
+  background: #354A84;
   border: none;
   border-radius: 0;
   position: relative;
@@ -441,7 +441,7 @@ button a:hover {
 
 .linkflair-epic-answered .linkflairlabel:hover,
 .linkflairlabel:hover {
-  background: #9527cc;
+  background: #445ea8;
 }
 
 .linkflair-official {
@@ -462,15 +462,15 @@ button a:hover {
 }
 
 .linkflair-announcement .linkflairlabel {
-  background: #761fa1;
+  background: #354A84;
 }
 
 .linkflair-announcement .linkflairlabel:hover {
-  background: #bf75e4;
+  background: #8498ce;
 }
 
 .linkflair-announcement:before {
-  color: #761fa1;
+  color: #354A84;
   opacity: 1.0 !important;
 }
 
@@ -488,11 +488,11 @@ button a:hover {
 }
 
 .linkflair-discussion .linkflairlabel {
-  background: #761fa1;
+  background: #354A84;
 }
 
 .linkflair-discussion .linkflairlabel:hover {
-  background: #bf75e4;
+  background: #8498ce;
 }
 
 .linkflair-discussion .thumbnail {
@@ -500,16 +500,16 @@ button a:hover {
 }
 
 .linkflair-discussion:before {
-  color: #761fa1;
+  color: #354A84;
   opacity: 1.0 !important;
 }
 
 .linkflair-question .linkflairlabel {
-  background: #761fa1;
+  background: #354A84;
 }
 
 .linkflair-question .linkflairlabel:hover {
-  background: #bf75e4;
+  background: #8498ce;
 }
 
 .linkflair-question .thumbnail {
@@ -517,16 +517,16 @@ button a:hover {
 }
 
 .linkflair-question:before {
-  color: #761fa1;
+  color: #354A84;
   opacity: 1.0 !important;
 }
 
 .linkflair-bug .linkflairlabel {
-  background: #761fa1;
+  background: #354A84;
 }
 
 .linkflair-bug .linkflairlabel:hover {
-  background: #bf75e4;
+  background: #8498ce;
 }
 
 .linkflair-bug .thumbnail {
@@ -534,16 +534,16 @@ button a:hover {
 }
 
 .linkflair-bug:before {
-  color: #761fa1;
+  color: #354A84;
   opacity: 1.0 !important;
 }
 
 .linkflair-help .linkflairlabel {
-  background: #761fa1;
+  background: #354A84;
 }
 
 .linkflair-help .linkflairlabel:hover {
-  background: #bf75e4;
+  background: #8498ce;
 }
 
 .linkflair-help .thumbnail {
@@ -551,16 +551,16 @@ button a:hover {
 }
 
 .linkflair-help:before {
-  color: #761fa1;
+  color: #354A84;
   opacity: 1.0 !important;
 }
 
 .linkflair-media .linkflairlabel {
-  background: #761fa1;
+  background: #354A84;
 }
 
 .linkflair-media .linkflairlabel:hover {
-  background: #bf75e4;
+  background: #8498ce;
 }
 
 .linkflair-media .thumbnail {
@@ -568,7 +568,7 @@ button a:hover {
 }
 
 .linkflair-media:before {
-  color: #761fa1;
+  color: #354A84;
   opacity: 1.0 !important;
 }
 
@@ -983,7 +983,7 @@ a[href$="user/tripleWRECK"]:before {
 }
 
 .titlebox h6:nth-of-type(1) a {
-  color: #761fa1;
+  color: #354A84;
 }
 
 .titlebox a[href$="/news"] {
@@ -994,9 +994,9 @@ a[href$="user/tripleWRECK"]:before {
   padding: 0 15px;
   height: 48px;
   font-weight: 700;
-  color: #761fa1;
+  color: #354A84;
   line-height: 50px;
-  border-left: 4px solid #761fa1;
+  border-left: 4px solid #354A84;
   z-index: 1;
 }
 
@@ -1009,7 +1009,7 @@ a[href$="user/tripleWRECK"]:before {
 /* FEATURED LINKS */
 
 .side blockquote li a:hover {
-  border-color: #761fa1;
+  border-color: #354A84;
 }
 
 .side blockquote ul {
@@ -1035,7 +1035,7 @@ a[href$="user/tripleWRECK"]:before {
   width: 0;
   margin-left: -356px;
   height: 2px;
-  background: #761fa1;
+  background: #354A84;
   animation: bar 10s linear infinite;
 }
 
@@ -1094,8 +1094,8 @@ a[href$="user/tripleWRECK"]:before {
   content: 'Join us on Discord for community discussion!';
   background: black;
   background: rgba(255, 255, 255, 0.85);
-  color: #761fa1;
-  border: 1px solid #761fa1;
+  color: #354A84;
+  border: 1px solid #354A84;
   text-transform: uppercase;
   position: absolute;
   top: 265px;
@@ -1133,8 +1133,8 @@ a[href$="user/tripleWRECK"]:before {
   content: 'View the community calendar for upcoming events!';
   background: black;
   background: rgba(255, 255, 255, 0.85);
-  color: #761fa1;
-  border: 1px solid #761fa1;
+  color: #354A84;
+  border: 1px solid #354A84;
   text-transform: uppercase;
   position: absolute;
   top: 265px;
@@ -1172,8 +1172,8 @@ a[href$="user/tripleWRECK"]:before {
   content: 'Frequently asked questions by the community.';
   background: black;
   background: rgba(255, 255, 255, 0.85);
-  color: #761fa1;
-  border: 1px solid #761fa1;
+  color: #354A84;
+  border: 1px solid #354A84;
   text-transform: uppercase;
   position: absolute;
   top: 265px;
@@ -1271,7 +1271,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  background: #761fa1;
+  background: #354A84;
   color: #cccccc;
   font-size: 10px;
   border: none;
@@ -1375,7 +1375,7 @@ body {
 }
 
 #header #header-bottom-left {
-  background: #761fa1;
+  background: #354A84;
   width: 100%;
   height: 60px;
   font-size: 12px;
@@ -1610,15 +1610,15 @@ body {
 }
 
 .side .titlebox .fancy-toggle-button .add {
-  background: #761fa1;
+  background: #354A84;
   color: white;
-  border-color: #761fa1;
+  border-color: #354A84;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .side .titlebox .fancy-toggle-button .add:hover {
-  background: #9527cc;
+  background: #445ea8;
 }
 
 .side .titlebox .fancy-toggle-button .add:after {
@@ -1786,7 +1786,7 @@ body {
   background: white;
   box-shadow: 0px 0px 2.75px 0.25px rgba(0, 0, 0, 0.2);
   border: none;
-  border-left: 4px solid #761fa1;
+  border-left: 4px solid #354A84;
   text-align: center;
   font-size: 14px;
   height: auto;
@@ -1800,7 +1800,7 @@ body {
 .side .morelink a {
   display: inline-block;
   padding: 15px 10px;
-  color: #761fa1;
+  color: #354A84;
   text-transform: uppercase;
   text-decoration: none;
   box-sizing: border-box;
@@ -2204,7 +2204,7 @@ body {
 }
 
 .content .link .entry .tagline .userattrs .moderator {
-  background: #761fa1;
+  background: #354A84;
   color: white;
   font-size: 9px;
   font-weight: bold;
@@ -2329,7 +2329,7 @@ body {
 }
 
 .content .nav-buttons a {
-  background-color: #761fa1;
+  background-color: #354A84;
   color: white;
   font-size: 12px;
   font-weight: normal;
@@ -2343,7 +2343,7 @@ body {
 }
 
 .content .nav-buttons a:hover {
-  background-color: #9527cc;
+  background-color: #445ea8;
   text-decoration: none;
 }
 
@@ -2377,7 +2377,7 @@ body {
 }
 
 .content .newsletterbar button {
-  color: #761fa1;
+  color: #354A84;
   border: none;
 }
 
@@ -2388,11 +2388,11 @@ body.hot-page .thing.stickied {
 body.hot-page .thing.stickied a.title,
 body.hot-page .thing.stickied a.title:visited,
 body.hot-page .thing.stickied .flat-list.buttons li.first a {
-  color: #761fa1;
+  color: #354A84;
 }
 
 body.hot-page .thing.stickied .entry .buttons li a {
-  color: #761fa1;
+  color: #354A84;
 }
 
 body.hot-page .thing.stickied .stickied-tagline {
@@ -2408,7 +2408,7 @@ body.hot-page .thing.stickied + :not(.stickied) + :not(.stickied) {
 }
 
 body.hot-page .thing.stickied.linkflair::before {
-  color: #761fa1;
+  color: #354A84;
   opacity: 1;
 }
 
@@ -2546,7 +2546,7 @@ body .entry.res-selected .md-container {
   left: 0;
   padding-left: 148px !important;
   line-height: 24px;
-  background-color: #761fa1 !important;
+  background-color: #354A84 !important;
   font-size: 12px;
   z-index: 0;
 }
@@ -2559,7 +2559,7 @@ body .entry.res-selected .md-container {
   content: "";
   padding: 14px 12px;
   position: absolute;
-  background-color: #761fa1;
+  background-color: #354A84;
   transform: skewX(-20deg);
   z-index: -1;
   right: -13px;
@@ -2584,7 +2584,7 @@ body .entry.res-selected .md-container {
   margin-bottom: 20px !important;
   padding: 22px 12px 0 !important;
   position: relative !important;
-  border: 1px double #761fa1 !important;
+  border: 1px double #354A84 !important;
 }
 
 .comments-page .commentarea .thing.comment.stickied:before {
@@ -2592,7 +2592,7 @@ body .entry.res-selected .md-container {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #761fa1;
+  background-color: #354A84;
   color: #d6d6d6;
   padding: 0 4px 0 12px;
   font-size: 12px;
@@ -2604,7 +2604,7 @@ body .entry.res-selected .md-container {
   content: "";
   position: absolute;
   padding: 14px 16px;
-  background-color: #761fa1;
+  background-color: #354A84;
   top: -16px;
   left: 120px;
   transform: skewX(-20deg);
@@ -2826,7 +2826,7 @@ body .entry.res-selected .md-container {
 }
 
 .submit-page .tabmenu li a:hover {
-  color: #761fa1;
+  color: #354A84;
 }
 
 .submit-page ul.tabmenu.formtab {
@@ -2836,7 +2836,7 @@ body .entry.res-selected .md-container {
 }
 
 .submit-page ul.tabmenu.formtab li.selected a {
-  background-color: #761fa1;
+  background-color: #354A84;
   box-shadow: -0.25px 0 2.75px 0.25px rgba(0, 0, 0, 0.2) !important;
   padding-left: 117px;
   padding-right: 117px;
@@ -2844,7 +2844,7 @@ body .entry.res-selected .md-container {
 
 .submit-page ul.tabmenu.formtab li.selected a:hover {
   color: white;
-  background-color: #9527cc;
+  background-color: #445ea8;
 }
 
 .submit-page ul.tabmenu.formtab li a {
@@ -2940,7 +2940,7 @@ body .entry.res-selected .md-container {
 }
 
 .footer-parent .flat-vert.title {
-  color: #761fa1;
+  color: #354A84;
 }
 
 .footer-parent li a {
@@ -2953,7 +2953,7 @@ body .entry.res-selected .md-container {
 }
 
 .footer-parent .buygold {
-  color: #761fa1;
+  color: #354A84;
 }
 
 .footer-parent .bottommenu {
@@ -3069,14 +3069,14 @@ body .entry.res-selected .md-container {
 }
 
 .search-page #search .search-submit-button.c-btn-primary {
-  background: #761fa1;
+  background: #354A84;
   border: none;
   border-radius: 0;
   padding: 6px 15px 5px;
 }
 
 .search-page #search .search-submit-button.c-btn-primary:hover {
-  background: #9527cc;
+  background: #445ea8;
 }
 
 .search-page .searchpane {
