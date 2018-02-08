@@ -7,16 +7,16 @@
         font-size: 12px;
         position: relative;
 
-        &:before {
-            content: '';
-            width: 96px;
-            height: 100px;
-            background: url(%%emblem%%) no-repeat;
-            display: inline-block;
-            margin-left: 15px;
-            margin-top: -36px;
-            background-size: 100%;
-        }
+        // &:before {
+        //     content: '';
+        //     width: 96px;
+        //     height: 100px;
+        //     background: url(%%emblem%%) no-repeat;
+        //     display: inline-block;
+        //     margin-left: 15px;
+        //     margin-top: -36px;
+        //     background-size: 100%;
+        // }
     }
 
     .pagename {
