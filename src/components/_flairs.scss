@@ -38,7 +38,8 @@
     }
 
     &:before {
-        color: $purple;
+        color: black;
+        opacity: 1.0 !important;
     }
 }
 
@@ -53,6 +54,7 @@
 
     &:before {
         color: $purple;
+        opacity: 1.0 !important;
     }
 }
 
@@ -67,6 +69,7 @@
 
     &:before {
         color: black;
+        opacity: 1.0 !important;
     }
 }
 
@@ -118,7 +121,45 @@
     }
 
     .thumbnail {
-        background-position: 0px -150px;
+        background-position: 0px -200px;
+    }
+
+    &:before {
+        color: $purple;
+        opacity: 1.0 !important;
+    }
+}
+
+.linkflair-help {
+    .linkflairlabel {
+        background: $purple;
+
+        &:hover {
+            background: lighten($purple, 30%);
+        }
+    }
+
+    .thumbnail {
+        background-position: 0px -300px;
+    }
+
+    &:before {
+        color: $purple;
+        opacity: 1.0 !important;
+    }
+}
+
+.linkflair-media {
+    .linkflairlabel {
+        background: $purple;
+
+        &:hover {
+            background: lighten($purple, 30%);
+        }
+    }
+
+    .thumbnail {
+        background-position: 0px -250px;
     }
 
     &:before {

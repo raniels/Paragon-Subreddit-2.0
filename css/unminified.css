@@ -457,7 +457,8 @@ button a:hover {
 }
 
 .linkflair-official:before {
-  color: #761fa1;
+  color: black;
+  opacity: 1.0 !important;
 }
 
 .linkflair-announcement .linkflairlabel {
@@ -470,6 +471,7 @@ button a:hover {
 
 .linkflair-announcement:before {
   color: #761fa1;
+  opacity: 1.0 !important;
 }
 
 .linkflair-epic-answered .linkflairlabel {
@@ -482,6 +484,7 @@ button a:hover {
 
 .linkflair-epic-answered:before {
   color: black;
+  opacity: 1.0 !important;
 }
 
 .linkflair-discussion .linkflairlabel {
@@ -527,10 +530,44 @@ button a:hover {
 }
 
 .linkflair-bug .thumbnail {
-  background-position: 0px -150px;
+  background-position: 0px -200px;
 }
 
 .linkflair-bug:before {
+  color: #761fa1;
+  opacity: 1.0 !important;
+}
+
+.linkflair-help .linkflairlabel {
+  background: #761fa1;
+}
+
+.linkflair-help .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-help .thumbnail {
+  background-position: 0px -300px;
+}
+
+.linkflair-help:before {
+  color: #761fa1;
+  opacity: 1.0 !important;
+}
+
+.linkflair-media .linkflairlabel {
+  background: #761fa1;
+}
+
+.linkflair-media .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-media .thumbnail {
+  background-position: 0px -250px;
+}
+
+.linkflair-media:before {
   color: #761fa1;
   opacity: 1.0 !important;
 }
@@ -2422,7 +2459,7 @@ body:not(.hot-page) .sitetable .thing:first-child {
 
 body .entry.res-selected,
 body .entry.res-selected .md-container {
-  background-color: white !important;
+  background-color: #FFFFFF00 !important;
 }
 
 .comments-page .link .usertext-body .md {
@@ -2510,7 +2547,7 @@ body .entry.res-selected .md-container {
   left: 0;
   padding-left: 148px !important;
   line-height: 24px;
-  background-color: #65b354 !important;
+  background-color: #761fa1 !important;
   font-size: 12px;
   z-index: 0;
 }
@@ -2523,7 +2560,7 @@ body .entry.res-selected .md-container {
   content: "";
   padding: 14px 12px;
   position: absolute;
-  background-color: #65b354;
+  background-color: #761fa1;
   transform: skewX(-20deg);
   z-index: -1;
   right: -13px;
@@ -2548,7 +2585,7 @@ body .entry.res-selected .md-container {
   margin-bottom: 20px !important;
   padding: 22px 12px 0 !important;
   position: relative !important;
-  border: 1px double #65b354 !important;
+  border: 1px double #761fa1 !important;
 }
 
 .comments-page .commentarea .thing.comment.stickied:before {
@@ -2556,7 +2593,7 @@ body .entry.res-selected .md-container {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #3d4751;
+  background-color: #761fa1;
   color: #d6d6d6;
   padding: 0 4px 0 12px;
   font-size: 12px;
@@ -2568,7 +2605,7 @@ body .entry.res-selected .md-container {
   content: "";
   position: absolute;
   padding: 14px 16px;
-  background-color: #3d4751;
+  background-color: #761fa1;
   top: -16px;
   left: 120px;
   transform: skewX(-20deg);

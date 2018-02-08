@@ -67,7 +67,7 @@
                         left: 0;
                         padding-left: 148px !important;
                         line-height: 24px;
-                        background-color: #65b354 !important;
+                        background-color: $purple !important;
                         font-size: 12px;
                         z-index: 0;
 
@@ -79,7 +79,7 @@
                             content: "";
                             padding: 14px 12px;
                             position: absolute;
-                            background-color: #65b354;
+                            background-color: $purple;
                             transform: skewX(-20deg);
                             z-index: -1;
                             right: -13px;
@@ -108,7 +108,7 @@
                     position: relative !important;
 
                     //border-top: 1px solid #282!important;
-                    border: 1px double #65b354 !important;
+                    border: 1px double $purple !important;
                 }
 
                 &:before {
@@ -116,7 +116,7 @@
                     position: absolute;
                     top: 0;
                     left: 0;
-                    background-color: #3d4751;
+                    background-color: $purple;
                     color: #d6d6d6;
                     padding: 0 4px 0 12px;
                     font-size: 12px;
@@ -128,7 +128,7 @@
                     content: "";
                     position: absolute;
                     padding: 14px 16px;
-                    background-color: #3d4751;
+                    background-color: $purple;
                     top: -16px;
                     left: 120px;
                     transform: skewX(-20deg);
