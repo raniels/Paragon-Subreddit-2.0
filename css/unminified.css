@@ -1170,7 +1170,7 @@ a[href$="user/tripleWRECK"]:before {
   height: 1200px;
   width: 200vw;
   transform: translateX(-300px) translateY(-300px);
-  animation: snowfall 10s linear infinite;
+  animation: snowfall 30s linear infinite;
   position: absolute;
   overflow: hidden;
   margin: 0;
