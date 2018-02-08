@@ -1,2 +1,7 @@
-# Paragon-Subreddit-2.0
-/r/Paragon Subreddit CSS - Managed by /u/JejuneKai and /u/MCiLuZiioNz
+# [Fortnite Save the World Subreddit](https://www.reddit.com/r/FORTnITE/)
+
+CSS and assets for the the Fortnite STW sub
+
+original by /u/JejuneKai and /u/MCiLuZiioNz
+
+modified/managed by /u/aFrequ
