@@ -572,6 +572,23 @@ button a:hover {
   opacity: 1.0 !important;
 }
 
+.linkflair-creative .linkflairlabel {
+  background: #761fa1;
+}
+
+.linkflair-creative .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-creative .thumbnail {
+  background-position: 0px -350px;
+}
+
+.linkflair-creative:before {
+  color: #761fa1;
+  opacity: 1.0 !important;
+}
+
 a.author[href$="/raczilla"],
 a.author[href$="/S-LG"],
 a.author[href$="/JustMooney1"],
