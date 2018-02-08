@@ -1281,7 +1281,11 @@ body {
 }
 
 #header #header-img {
-  display: none;
+  position: relative;
+  margin-left: 14px;
+  margin-top: -36px;
+  width: 100px;
+  height: auto;
 }
 
 #sr-header-area {
@@ -1317,6 +1321,19 @@ body {
   margin-right: 0;
   padding-right: 24px;
   padding-left: 10px;
+}
+
+#sr-header-area .drop-choices.inuse {
+  display: flex;
+}
+
+#sr-header-area .drop-choices a.choice {
+  background-color: #761fa1;
+  color: white;
+}
+
+#sr-header-area .drop-choices a.choice:hover {
+  background-color: #c272d9;
 }
 
 #header-bottom-right {
@@ -1397,17 +1414,6 @@ body {
   height: 60px;
   font-size: 12px;
   position: relative;
-}
-
-#header #header-bottom-left:before {
-  content: '';
-  width: 96px;
-  height: 100px;
-  background: url("%%emblem%%") no-repeat;
-  display: inline-block;
-  margin-left: 15px;
-  margin-top: -36px;
-  background-size: 100%;
 }
 
 #header .pagename {
