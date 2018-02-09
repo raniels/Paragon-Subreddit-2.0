@@ -1,10 +1,9 @@
 {
-  "name": "rparagon-2.0",
+  "name": "rfortnitebr",
   "version": "2.0.0",
-  "description": "post v42",
+  "description": "post v242",
   "main": "gulpfile.js",
   "dependencies": {
-    "browser-sync": "^2.18.12",
     "del": "^2.2.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-compass": "^2.1.0",
@@ -16,13 +15,9 @@
     "gulp-uglify": "^3.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-concat-css": "^2.3.0"
   },
-  "scripts": {
-    "test": "fung mao"
-  },
-  "author": "Jamie Shepherd, maintained by u/JejuneKai & u/MCiLuZiioNz",
+  "author": " maintained by u/JejuneKai & u/MCiLuZiioNz",
   "license": "ISC"
 }

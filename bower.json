@@ -1,8 +1,9 @@
 {
-  "name": "Paragon new",
+  "name": "FortniteBR",
   "description": "subreddit",
   "main": "gulpfile.js",
   "authors": [
+    "MCiLuZiioNz",
     "JejuneKai"
   ],
   "license": "ISC",
