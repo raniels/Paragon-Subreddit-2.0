@@ -62,9 +62,9 @@
     }
 
     .drop-choices {
-        &.inuse {
-            display: flex;
-        }
+    	&.inuse {
+    		display: flex;
+    	}
 
         a.choice {
             background-color: $purple;
