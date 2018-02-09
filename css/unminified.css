@@ -589,6 +589,40 @@ button a:hover {
   opacity: 1.0 !important;
 }
 
+.linkflair-suggestion .linkflairlabel {
+  background: #761fa1;
+}
+
+.linkflair-suggestion .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-suggestion .thumbnail {
+  background-position: 0px -400px;
+}
+
+.linkflair-suggestion:before {
+  color: #761fa1;
+  opacity: 1.0 !important;
+}
+
+.linkflair-fluff .linkflairlabel {
+  background: #761fa1;
+}
+
+.linkflair-fluff .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-fluff .thumbnail {
+  background-position: 0px -450px;
+}
+
+.linkflair-fluff:before {
+  color: #761fa1;
+  opacity: 1.0 !important;
+}
+
 a.author[href$="/raczilla"],
 a.author[href$="/S-LG"],
 a.author[href$="/JustMooney1"],
@@ -1242,6 +1276,10 @@ a[href$="user/tripleWRECK"]:before {
   z-index: 2;
 }
 
+#header #header-img {
+  margin-top: -40px !important;
+}
+
 body {
   overflow-x: hidden !important;
 }
@@ -1711,7 +1749,7 @@ body {
 }
 
 .side .subscribers .word:before {
-  content: 'Heroes';
+  content: 'Double Pumpers';
   font-size: 16px;
   position: relative;
 }
@@ -2482,6 +2520,13 @@ body:not(.hot-page) .sitetable .thing:first-child {
 body .entry.res-selected,
 body .entry.res-selected .md-container {
   background-color: #FFFFFF00 !important;
+}
+
+body .NERPageMarker {
+  background: white;
+  border-color: #761fa1;
+  color: #761fa1;
+  border-radius: 0px;
 }
 
 .comments-page .link .usertext-body .md {
