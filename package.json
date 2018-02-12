@@ -1,26 +1,22 @@
 {
-  "name": "rparagon-2.0",
-  "version": "2.0.0",
-  "description": "post v42",
+  "name": "fortnitebr",
+  "version": "2.4.2",
+  "description": "/r/FortniteBR",
   "main": "gulpfile.js",
   "dependencies": {
-    "del": "^2.2.2",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-compass": "^2.1.0",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^1.1.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^3.0.0"
+    "gulp-concat-css": "^2.3.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^1.1.0",
+    "gulp-sass": "^2.3.2",
     "gulp-concat-css": "^2.3.0"
   },
-  "scripts": {
-    "test": "fung mao"
-  },
-  "author": "Jamie Shepherd, maintained by u/JejuneKai & u/MCiLuZiioNz",
+  "author": " maintained by u/JejuneKai & u/MCiLuZiioNz",
   "license": "ISC"
 }

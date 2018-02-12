@@ -1,20 +1,20 @@
-var gulp = require('gulp');
-	sass = require('gulp-sass');
-	mash = require('gulp-concat-css');
-	csso = require('gulp-csso');
+"use strict";
 
-gulp.task('build', function(){
+var gulp = require('gulp');
+var	sass = require('gulp-sass');
+var	mash = require('gulp-concat-css');
+var	csso = require('gulp-csso');
+
+gulp.task('default', function() {
     gulp.src('src/theme.scss')
         .pipe(sass().on('error', sass.logError))
-	  	.pipe(mash('unminified.css'))
+	  	    .pipe(mash('style.css'))
         .pipe(gulp.dest('./css'))
-        .pipe(mash('final code.css'))
-        .pipe(csso())
+            .pipe(mash('style-min.css'))
+            .pipe(csso())
         .pipe(gulp.dest('./css'))
 });
 
-gulp.task('watch', ['build'], function(){
-    gulp.watch('src/**/*.scss', ['build']);
+gulp.task('watch', ['default'], function() {
+    gulp.watch('src/**/*.scss', ['default']);
 });
-
-gulp.task('default', ['build']);

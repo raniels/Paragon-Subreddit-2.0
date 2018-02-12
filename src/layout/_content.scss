@@ -288,7 +288,7 @@ body {
     }
 }
 
-// RES
+// RES Changes
 
 .link {
     position: relative;
@@ -310,15 +310,6 @@ body {
     }
 }
 
-// .content .RESBigEditorPop {
-//     text-indent: -9999px;
-//     overflow: hidden;
-//     font-size: 0;
-//     width: 20px;
-//     height: 16px;
-//     border: none;
-//     margin-left: 5px;
-// }
 .content .RESBigEditorPop {
     text-indent: 0;
     overflow: visible;
@@ -332,6 +323,15 @@ body {
     color: $foreground;
 }
 
-body .entry.res-selected, body .entry.res-selected .md-container {
-    background-color: #FFFFFF00 !important;
+body {
+    .entry.res-selected, .entry.res-selected .md-container {
+        background-color: #FFFFFF00 !important;
+    }
+
+    .NERPageMarker {
+        background: white;
+        border-color: $purple;
+        color: $purple;
+        border-radius: 0px;
+    }
 }

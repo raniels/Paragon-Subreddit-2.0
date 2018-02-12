@@ -1,5 +1,6 @@
 #header {
     overflow: hidden;
+
     // &:before {
     //     content: '';
     //     display: block;
@@ -35,22 +36,30 @@
         margin: 0;
         opacity: 0.6;
     }
+
     #sr-header-area {
         z-index: 2;
     }
+
     #header-bottom-left {
         z-index: 2;
     }
+
     #header-bottom-right {
         z-index: 2;
     }
+
+    #header-img { // USE WITH EMBLEM_VALENTINES
+        margin-top: -40px !important;
+    }
 }
+
 body {
     overflow-x: hidden !important;
 }
 
 @keyframes snowfall {
-  to {
-    transform: none;
-  }
+    to {
+        transform: none;
+    }
 }
