@@ -572,7 +572,7 @@ button a:hover {
   opacity: 1.0 !important;
 }
 
-a.author[href$="/raczilla"],a.author[href$="/S-LG"],a.author[href$="/JustMooney1"],a.author[href$="/Chris_Attalus"],a.author[href$="/iFlak"],a.author[href$="/inuswetrust1"],a.author[href$="/hofftv"],a.author[href$="/ZooKeeperZak"], a.author[href$="/ConstantDesigner"], a.author[href$="/EpicTense"], a.author[href$="/EpicEricSW"], a.author[href$="/EPIC_Tokaj"], a.author[href$="/InUsWeTrust1"], a.author[href$="/arctyczyn"], a.author[href$="/MichaelNoland"], a.author[href$="/MrPopoTFS"],a.author[href$="/AfroDeezyShak"], a.author[href$="/Epic_Joel"], a.author[href$="/DanDaDaDanDan"], a.author[href$="/spazinski"], a.author[href$="/EpicPente"] , a.author[href$="/RZELive"], a.author[href$="/Magyst"], a.author[href$="/Epic_Boomshaka"], a.author[href$="/darkveil"], a.author[href$="/EPIC-MrPopoTFS"], a.author[href$="/MythicBasil"], a.author[href$="/EpicCodyB"], a.author[href$="/AaronAtEpic"], a.author[href$="/Shank_TheTank"], a.author[href$="/EpicLoomin"], a.author[href$="/kyle-dev-epic"], a.author[href$="/ModernRyoga"], a.author[href$="/SkribblrPrsn"], a.author[href$="/JShredz"], a.author[href$="/MagmaReef"], a.author[href$="/Epic_Boomer"], a.author[href$="/PoppinFreshDoze"], a.author[href$="/Epic_Clintonious"], a.author[href$="/Epic_Jason"], a.author[href$="/kulvard"] {
+a.author[href$="/raczilla"],a.author[href$="/S-LG"],a.author[href$="/JustMooney1"],a.author[href$="/Chris_Attalus"],a.author[href$="/iFlak"],a.author[href$="/inuswetrust1"],a.author[href$="/hofftv"],a.author[href$="/ZooKeeperZak"], a.author[href$="/ConstantDesigner"], a.author[href$="/EpicTense"], a.author[href$="/EpicEricSW"], a.author[href$="/EPIC_Tokaj"], a.author[href$="/InUsWeTrust1"], a.author[href$="/arctyczyn"], a.author[href$="/MichaelNoland"], a.author[href$="/MrPopoTFS"],a.author[href$="/AfroDeezyShak"], a.author[href$="/Epic_Joel"], a.author[href$="/DanDaDaDanDan"], a.author[href$="/spazinski"], a.author[href$="/EpicPente"] , a.author[href$="/RZELive"], a.author[href$="/Magyst"], a.author[href$="/Epic_Boomshaka"], a.author[href$="/darkveil"], a.author[href$="/EPIC-MrPopoTFS"], a.author[href$="/MythicBasil"], a.author[href$="/EpicCodyB"], a.author[href$="/AaronAtEpic"], a.author[href$="/Shank_TheTank"], a.author[href$="/EpicLoomin"], a.author[href$="/kyle-dev-epic"], a.author[href$="/ModernRyoga"], a.author[href$="/SkribblrPrsn"], a.author[href$="/JShredz"], a.author[href$="/MagmaReef"], a.author[href$="/Epic_Boomer"], a.author[href$="/PoppinFreshDoze"], a.author[href$="/Epic_Clintonious"], a.author[href$="/Epic_Jason"], a.author[href$="/kulvard"], a.author[href$="/DJDerrickG"] {
   display: inline-block;
   margin-right: .5em;
   padding: 1px;
@@ -1059,7 +1059,7 @@ a[href$="user/tripleWRECK"]:before {
 }
 
 .side blockquote p:nth-child(1):before {
-  content: 'Join us on the subreddit Discord!';
+  content: 'Join us on the Subreddit Discord for community discussion!';
   background: black;
   background: rgba(255, 255, 255, 0.85);
   color: #354A84;
@@ -1098,7 +1098,7 @@ a[href$="user/tripleWRECK"]:before {
 }
 
 .side blockquote p:nth-child(2):before {
-  content: 'Check out the Dev Roadmap!';
+  content: 'View the recent Dev Map!';
   background: black;
   background: rgba(255, 255, 255, 0.85);
   color: #354A84;
@@ -1137,7 +1137,7 @@ a[href$="user/tripleWRECK"]:before {
 }
 
 .side blockquote p:nth-child(3):before {
-  content: 'Check out all the featured guides!';
+  content: 'Check out our featured guides!';
   background: black;
   background: rgba(255, 255, 255, 0.85);
   color: #354A84;
@@ -1232,7 +1232,11 @@ body {
 }
 
 #header #header-img {
-  display: none;
+  position: relative;
+  margin-left: 14px;
+  margin-top: -36px;
+  width: 100px;
+  height: auto;
 }
 
 #sr-header-area {
@@ -1268,6 +1272,19 @@ body {
   margin-right: 0;
   padding-right: 24px;
   padding-left: 10px;
+}
+
+#sr-header-area .drop-choices.inuse {
+  display: flex;
+}
+
+#sr-header-area .drop-choices a.choice {
+  background-color: #354A84;
+  color: white;
+}
+
+#sr-header-area .drop-choices a.choice:hover {
+  background-color: #c272d9;
 }
 
 #header-bottom-right {
@@ -1348,17 +1365,6 @@ body {
   height: 60px;
   font-size: 12px;
   position: relative;
-}
-
-#header #header-bottom-left:before {
-  content: '';
-  width: 96px;
-  height: 100px;
-  background: url("%%emblem%%") no-repeat;
-  display: inline-block;
-  margin-left: 15px;
-  margin-top: -36px;
-  background-size: 100%;
 }
 
 #header .pagename {
@@ -1590,7 +1596,7 @@ body {
 }
 
 .side .titlebox .fancy-toggle-button .add:after {
-  content: ' to /r/FortniteBR';
+  content: ' to /r/FORTnITE';
   text-transform: none;
 }
 
@@ -1886,7 +1892,7 @@ body {
   height: 25px;
 }
 
-.side .tagline .flair-epic {
+.side .tagline .flair-dev1 {
   background-position: -25px 0;
 }
 
@@ -2895,7 +2901,7 @@ body .entry.res-selected .md-container {
 }
 
 .footer-parent {
-  background: #1d1d1d url("%%footberg%%") top center no-repeat;
+  background: #1d1d1d url("%%footerbg%%") top center no-repeat;
   background-size: cover;
   min-height: 500px;
   padding-top: 0;
