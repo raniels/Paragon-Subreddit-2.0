@@ -572,7 +572,7 @@ button a:hover {
   opacity: 1.0 !important;
 }
 
-a.author[href$="/raczilla"],a.author[href$="/S-LG"],a.author[href$="/JustMooney1"],a.author[href$="/Chris_Attalus"],a.author[href$="/iFlak"],a.author[href$="/inuswetrust1"],a.author[href$="/hofftv"],a.author[href$="/ZooKeeperZak"], a.author[href$="/ConstantDesigner"], a.author[href$="/EpicTense"], a.author[href$="/EpicEricSW"], a.author[href$="/EPIC_Tokaj"], a.author[href$="/InUsWeTrust1"], a.author[href$="/arctyczyn"], a.author[href$="/MichaelNoland"], a.author[href$="/MrPopoTFS"],a.author[href$="/AfroDeezyShak"], a.author[href$="/Epic_Joel"], a.author[href$="/DanDaDaDanDan"], a.author[href$="/spazinski"], a.author[href$="/EpicPente"] , a.author[href$="/RZELive"], a.author[href$="/Magyst"], a.author[href$="/Epic_Boomshaka"], a.author[href$="/darkveil"], a.author[href$="/EPIC-MrPopoTFS"], a.author[href$="/MythicBasil"], a.author[href$="/EpicCodyB"], a.author[href$="/AaronAtEpic"], a.author[href$="/Shank_TheTank"], a.author[href$="/EpicLoomin"], a.author[href$="/kyle-dev-epic"], a.author[href$="/ModernRyoga"], a.author[href$="/SkribblrPrsn"], a.author[href$="/JShredz"], a.author[href$="/MagmaReef"], a.author[href$="/Epic_Boomer"], a.author[href$="/PoppinFreshDoze"], a.author[href$="/Epic_Clintonious"], a.author[href$="/Epic_Jason"], a.author[href$="/kulvard"], a.author[href$="/DJDerrickG"] {
+a.author[href$="/raczilla"],a.author[href$="/S-LG"],a.author[href$="/JustMooney1"],a.author[href$="/Chris_Attalus"],a.author[href$="/iFlak"],a.author[href$="/inuswetrust1"],a.author[href$="/hofftv"],a.author[href$="/ZooKeeperZak"], a.author[href$="/ConstantDesigner"], a.author[href$="/EpicEricSW"], a.author[href$="/EPIC_Tokaj"], a.author[href$="/InUsWeTrust1"], a.author[href$="/arctyczyn"], a.author[href$="/MichaelNoland"], a.author[href$="/MrPopoTFS"],a.author[href$="/AfroDeezyShak"], a.author[href$="/Epic_Joel"], a.author[href$="/DanDaDaDanDan"], a.author[href$="/spazinski"], a.author[href$="/EpicPente"] , a.author[href$="/RZELive"], a.author[href$="/Magyst"], a.author[href$="/Epic_Boomshaka"], a.author[href$="/darkveil"], a.author[href$="/EPIC-MrPopoTFS"], a.author[href$="/MythicBasil"], a.author[href$="/EpicCodyB"], a.author[href$="/AaronAtEpic"], a.author[href$="/Shank_TheTank"], a.author[href$="/EpicLoomin"], a.author[href$="/kyle-dev-epic"], a.author[href$="/ModernRyoga"], a.author[href$="/SkribblrPrsn"], a.author[href$="/JShredz"], a.author[href$="/MagmaReef"], a.author[href$="/Epic_Boomer"], a.author[href$="/PoppinFreshDoze"], a.author[href$="/Epic_Jason"], a.author[href$="/kulvard"], a.author[href$="/DJDerrickG"], a.author[href$="/maury_mountain"], a.author[href$="/Epic_Clintonious"], a.author[href$="/206inthe919"] {
   display: inline-block;
   margin-right: .5em;
   padding: 1px;
@@ -593,8 +593,8 @@ body:not(.moderator) .flairselector .linkflair-epic-answered {
   display: none;
 }
 
-a[href$="user/ImTheMyth"]:before,
-a[href$="user/tripleWRECK"]:before {
+a[href$="user/nordrasir"]:before,
+a[href$="user/Whitesushii"]:before {
   content: url("%%verified%%");
   position: relative;
   right: -4px;
@@ -1223,7 +1223,7 @@ body {
   background: #000 url("%%header%%") no-repeat;
   display: block;
   background-size: cover !important;
-  background-position: top center;
+  background-position: top left;
   height: 300px;
 }
 
