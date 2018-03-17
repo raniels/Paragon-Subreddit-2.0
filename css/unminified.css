@@ -504,23 +504,6 @@ button a:hover {
   opacity: 1.0 !important;
 }
 
-.linkflair-question .linkflairlabel {
-  background: #354A84;
-}
-
-.linkflair-question .linkflairlabel:hover {
-  background: #8498ce;
-}
-
-.linkflair-question .thumbnail {
-  background-position: 0px -150px;
-}
-
-.linkflair-question:before {
-  color: #354A84;
-  opacity: 1.0 !important;
-}
-
 .linkflair-bug .linkflairlabel {
   background: #354A84;
 }
@@ -547,7 +530,7 @@ button a:hover {
 }
 
 .linkflair-help .thumbnail {
-  background-position: 0px -300px;
+  background-position: 0px -153px;
 }
 
 .linkflair-help:before {
@@ -572,7 +555,123 @@ button a:hover {
   opacity: 1.0 !important;
 }
 
-a.author[href$="/raczilla"],a.author[href$="/S-LG"],a.author[href$="/JustMooney1"],a.author[href$="/Chris_Attalus"],a.author[href$="/iFlak"],a.author[href$="/inuswetrust1"],a.author[href$="/hofftv"],a.author[href$="/ZooKeeperZak"], a.author[href$="/ConstantDesigner"], a.author[href$="/EpicEricSW"], a.author[href$="/EPIC_Tokaj"], a.author[href$="/InUsWeTrust1"], a.author[href$="/arctyczyn"], a.author[href$="/MichaelNoland"], a.author[href$="/MrPopoTFS"],a.author[href$="/AfroDeezyShak"], a.author[href$="/Epic_Joel"], a.author[href$="/DanDaDaDanDan"], a.author[href$="/spazinski"], a.author[href$="/EpicPente"] , a.author[href$="/RZELive"], a.author[href$="/Magyst"], a.author[href$="/Epic_Boomshaka"], a.author[href$="/darkveil"], a.author[href$="/EPIC-MrPopoTFS"], a.author[href$="/MythicBasil"], a.author[href$="/EpicCodyB"], a.author[href$="/AaronAtEpic"], a.author[href$="/Shank_TheTank"], a.author[href$="/EpicLoomin"], a.author[href$="/kyle-dev-epic"], a.author[href$="/ModernRyoga"], a.author[href$="/SkribblrPrsn"], a.author[href$="/JShredz"], a.author[href$="/MagmaReef"], a.author[href$="/Epic_Boomer"], a.author[href$="/PoppinFreshDoze"], a.author[href$="/Epic_Jason"], a.author[href$="/kulvard"], a.author[href$="/DJDerrickG"], a.author[href$="/maury_mountain"], a.author[href$="/Epic_Clintonious"], a.author[href$="/206inthe919"] {
+.linkflair-streamer .linkflairlabel {
+  background: #354A84;
+}
+
+.linkflair-streamer .linkflairlabel:hover {
+  background: #8498ce;
+}
+
+.linkflair-streamer .thumbnail {
+  background-position: 0px -250px;
+}
+
+.linkflair-streamer:before {
+  color: #354A84;
+  opacity: 1.0 !important;
+}
+
+.linkflair-creative .linkflairlabel {
+  background: #354A84;
+}
+
+.linkflair-creative .linkflairlabel:hover {
+  background: #bf75e4;
+}
+
+.linkflair-creative .thumbnail {
+  background-position: 0px -350px;
+}
+
+.linkflair-creative:before {
+  color: #354A84;
+  opacity: 1.0 !important;
+}
+
+.linkflair-suggestion .linkflairlabel {
+  background: #354A84;
+}
+
+.linkflair-suggestion .linkflairlabel:hover {
+  background: #8498ce;
+}
+
+.linkflair-suggestion .thumbnail {
+  background-position: 0px -400px;
+}
+
+.linkflair-suggestion:before {
+  color: #354A84;
+  opacity: 1.0 !important;
+}
+
+.linkflair-humor .linkflairlabel {
+  background: #354A84;
+}
+
+.linkflair-humor .linkflairlabel:hover {
+  background: #8498ce;
+}
+
+.linkflair-humor .thumbnail {
+  background-position: 0px -500px;
+}
+
+.linkflair-humor:before {
+  color: #354A84;
+  opacity: 1.0 !important;
+}
+
+a.author[href$="/raczilla"],
+a.author[href$="/S-LG"],
+a.author[href$="/JustMooney1"],
+a.author[href$="/Chris_Attalus"],
+a.author[href$="/iFlak"],
+a.author[href$="/inuswetrust1"],
+a.author[href$="/hofftv"],
+a.author[href$="/ZooKeeperZak"],
+a.author[href$="/ConstantDesigner"],
+a.author[href$="/EpicTense"],
+a.author[href$="/EpicEricSW"],
+a.author[href$="/EPIC_Tokaj"],
+a.author[href$="/InUsWeTrust1"],
+a.author[href$="/arctyczyn"],
+a.author[href$="/MichaelNoland"],
+a.author[href$="/MrPopoTFS"],
+a.author[href$="/AfroDeezyShak"],
+a.author[href$="/Epic_Joel"],
+a.author[href$="/DanDaDaDanDan"],
+a.author[href$="/spazinski"],
+a.author[href$="/EpicPente"],
+a.author[href$="/RZELive"],
+a.author[href$="/Magyst"],
+a.author[href$="/Epic_Boomshaka"],
+a.author[href$="/darkveil"],
+a.author[href$="/EPIC-MrPopoTFS"],
+a.author[href$="/MythicBasil"],
+a.author[href$="/EpicCodyB"],
+a.author[href$="/AaronAtEpic"],
+a.author[href$="/Shank_TheTank"],
+a.author[href$="/EpicLoomin"],
+a.author[href$="/kyle-dev-epic"],
+a.author[href$="/ModernRyoga"],
+a.author[href$="/SkribblrPrsn"],
+a.author[href$="/JShredz"],
+a.author[href$="/MagmaReef"],
+a.author[href$="/Epic_Boomer"],
+a.author[href$="/PoppinFreshDoze"],
+a.author[href$="/Epic_Jason"],
+a.author[href$="/kulvard"],
+a.author[href$="/DJDerrickG"],
+a.author[href$="/maury_mountain"],
+a.author[href$="/Epic_Clintonious"],
+a.author[href$="/206inthe919"],
+a.author[href$="/EPICMidnightblu"],
+a.author[href$="/Nythanos"],
+a.author[href$="/puzzle3-14"],
+a.author[href$="/ModernRyoga"],
+a.author[href$="/BadHer0"], {
   display: inline-block;
   margin-right: .5em;
   padding: 1px;
@@ -1163,7 +1262,7 @@ a[href$="user/Whitesushii"]:before {
   overflow: hidden;
 }
 
-#header:after {
+/*#header:after {
   content: '';
   display: block;
   background-image: url("%%movinghearts%%");
@@ -1179,7 +1278,7 @@ a[href$="user/Whitesushii"]:before {
   overflow: hidden;
   margin: 0;
   opacity: 0.6;
-}
+}*/
 
 #header #sr-header-area {
   z-index: 2;
@@ -3062,3 +3161,100 @@ body .entry.res-selected .md-container {
   padding: 20px;
   max-width: 100%;
 }
+
+/* --------------------------------------------------------------------- FLAIR FILTER START*/
+
+.side .md p:nth-child(n+7):nth-child(-n+13) > a {
+  display: block;
+  position: relative;
+  font-size: 1.1428571428571428em;
+  margin-top: 4px;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 0 8px 0;
+  border: 1px solid #ddd;
+  border-left: 4px solid #354A84;
+  color: #354A84;
+  text-decoration: none;
+  background-image: url(%%flair-icons%%);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  height: 20px;
+}
+.side .md p:nth-child(n+7):nth-child(-n+13) > a:hover {
+  border: 1px solid #999;
+  border-left: 4px solid #761fa1;
+  text-decoration: none;
+}
+.side .md p:nth-child(7) a {
+  background-position: 0 -142px;
+}
+.side .md p:nth-child(8) a {
+  background-position: 0 -35px;
+}
+.side .md p:nth-child(9) a {
+  background-position: 0 -107px;
+}
+.side .md p:nth-child(10) a {
+  background-position: 0 -178px;
+}
+.side .md p:nth-child(11) a {
+  background-position: 0 -250px;
+}
+.side .md p:nth-child(12) a {
+  background-position: 0 -357px;
+}
+.side .md p:nth-child(13) a {
+  background-position: 0 -72px;
+}
+
+html:lang(fn-00) .link:not(.linkflair-official):not(.linkflair-epic-answered) {
+    display: none;
+}
+
+html:lang(fn-01) .link:not(.linkflair-bug) {
+    display: none;
+}
+
+html:lang(fn-02) .link:not(.linkflair-discussion):not(.linkflair-suggestion) {
+    display: none;
+}
+
+html:lang(fn-03) .link:not(.linkflair-help) {
+    display: none;
+}
+
+html:lang(fn-04) .link:not(.linkflair-media):not(.linkflair-streamer) {
+    display: none;
+}
+
+html:lang(fn-05) .link:not(.linkflair-creative) {
+    display: none;
+}
+
+html:lang(fn-06) .link:not(.linkflair-humor):not(.linkflair-misc) {
+    display: none;
+}
+
+.side .md p:nth-child(14) {
+  display: none;
+}
+html:lang(fn) .side .md p:nth-child(14) {
+  display: block!important;
+}
+html:lang(fn) .side .md p:nth-child(14) a {
+  content: "";
+  z-index: 100;
+  position: absolute;
+  top: 278px;
+  left: 130px;
+  background: url(%%logo%%) no-repeat left center;
+  width: 175px;
+  height: 106px;
+  background-size: 90%;
+  text-indent: -1999px;
+  overflow: hidden;
+} 
+
+
+/*--------------------------------------------------------------------- FLAIR FILTER END*/
